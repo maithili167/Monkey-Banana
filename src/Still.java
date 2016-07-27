@@ -1,7 +1,7 @@
 //This Concrete state class implements transitions going out of the still state
 //It returns Moving state.
 public class Still extends MonkeyState {
- 
+ //
 	@Override 
 	public MonkeyState goLeft(Monkey monkey){
 		
